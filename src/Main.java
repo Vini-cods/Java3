@@ -37,5 +37,18 @@ public class Main {
         bond.buyBond(24); // Compra um título com prazo de 24 meses
         bond.simulateInterest(); // Simula os juros por 24 meses
 
+        Aluno pedro = new Aluno();
+        pedro.nome = "Pedro";
+        pedro.altura = 1.75;
+        pedro.anoMatricula = 2021;
+
+        Aluno carla = new Aluno();
+        carla.nome = "Carla";
+        carla.altura = 1.68;
+        carla.anoMatricula = 2022;
+
+        System.out.println(pedro.nome + " tem " + pedro.altura + "m de altura.");
+        carla.estudar();
+
     }
 }
