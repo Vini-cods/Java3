@@ -30,5 +30,12 @@ public class Main {
         System.out.println(estudantes1.name + " tem média: " + estudantes1.calculateAverage());
         System.out.println(estudantes2.name + " tem média: " + estudantes2.calculateAverage());
 
+        Tesouro bond = new Tesouro();
+        bond.name = "Tesouro Selic";
+        bond.balance = 1000.00;
+
+        bond.buyBond(24); // Compra um título com prazo de 24 meses
+        bond.simulateInterest(); // Simula os juros por 24 meses
+
     }
 }
