@@ -30,6 +30,8 @@ public class Main {
         System.out.println(estudantes1.name + " tem média: " + estudantes1.calculateAverage());
         System.out.println(estudantes2.name + " tem média: " + estudantes2.calculateAverage());
 
+        System.out.println();
+
         Tesouro bond = new Tesouro();
         bond.name = "Tesouro Selic";
         bond.balance = 1000.00;
