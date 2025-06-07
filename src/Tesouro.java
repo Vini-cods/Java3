@@ -38,13 +38,13 @@ public class Tesouro {
     }
 }
 
-public class BondTest {
-    public static void main(String[] args) {
-        Tesouro bond = new Tesouro();
-        bond.name = "Tesouro Selic";
-        bond.balance = 1000.00;
-
-        bond.buyBond(24); // Compra um título com prazo de 24 meses
-        bond.simulateInterest(); // Simula os juros por 24 meses
-    }
-}
+//public class BondTest {
+//    public static void main(String[] args) {
+//        Tesouro bond = new Tesouro();
+//        bond.name = "Tesouro Selic";
+//        bond.balance = 1000.00;
+//
+//        bond.buyBond(24); // Compra um título com prazo de 24 meses
+//        bond.simulateInterest(); // Simula os juros por 24 meses
+//    }
+//}
